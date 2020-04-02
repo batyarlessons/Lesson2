@@ -1,0 +1,19 @@
+body {
+	font-size: 30px;
+}
+
+.checkbox10:checked ~ .wrap .title2{
+	font-size: 10px;
+}
+
+.checkbox20:checked ~ .wrap .title2{
+	font-size: 20px;
+}
+
+.checkbox30:checked ~ .wrap .title2{
+	font-size: 30px;
+}
+
+.title2 {
+	transition: all 1s;
+}
